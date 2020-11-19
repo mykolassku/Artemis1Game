@@ -1,0 +1,52 @@
+body{
+    background-image: url("./photos/moonBackground2.png");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: "Courier New";
+}
+
+.instruction{
+    display: grid;
+    color: white;
+    font-family: "Courier New";
+
+}
+
+.position{
+    color: #cc0099;
+}
+
+.north{
+    color: #0CE9FE;
+}
+.east{
+    color: yellow;
+}
+.south{
+    color: #FE920C;
+}
+.west{
+    color: red;
+}
+
+#game-text{
+    font-family: "Lucida Console";
+    font-size: 15px;
+    color: rgba(23, 255, 2, 1);
+}
+
+input{
+    margin-right: 0px;
+    border-right: 0px;
+}
+
+button{
+    margin-left: 200px;
+}
+
+span{
+    color:white;
+}
